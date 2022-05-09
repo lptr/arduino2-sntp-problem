@@ -1,5 +1,7 @@
 # SNTP timing problem
 
+Reported as https://github.com/espressif/arduino-esp32/issues/6720.
+
 Using Arduino 1, WIFI connection takes longer (each `.` is 100 ms), but after that `time.google.com` always returns practically immediately:
 
 ```text
